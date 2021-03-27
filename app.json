@@ -1,12 +1,12 @@
 {
   "expo": {
-    "name": "TodoApp",
-    "slug": "TodoApp",
+    "name": "이강App",
+    "slug": "이강App",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/logo1.png",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -17,11 +17,15 @@
       "**/*"
     ],
     "ios": {
+      "bundleIdentifier": "com.yee.yeegang",
+      "buildNumber": "1.0.0",
       "supportsTablet": true
     },
     "android": {
+      "package": "com.yee.yeegang",
+      "versionCode": 1,
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/logo1.png",
         "backgroundColor": "#FFFFFF"
       }
     },
